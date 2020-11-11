@@ -1,0 +1,35 @@
+{
+  "name": "impostor-giveaway",
+  "version": "1.0.0",
+  "description": "a discord giveaway bot by ImPoStoR#8011",
+  "main": "index.js",
+  "dependencies": {
+    "discord-giveaways": "^4.2.1",
+    "discord.js": "^12.4.1",
+    "fs": "0.0.1-security",
+    "get": "^1.4.0",
+    "moment": "^2.29.1",
+    "ms": "^2.1.2",
+    "nedb": "^1.8.0",
+    "os": "^0.1.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "pm2": "pm2 start index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujalgoel/impostor-giveaway.git"
+  },
+  "author": "sujalgoel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sujalgoel/impostor-giveaway/issues"
+  },
+  "homepage": "https://github.com/sujalgoel/impostor-giveaway#readme"
+}
