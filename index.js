@@ -102,4 +102,4 @@ client.giveawaysManager.on("giveawayReactionAdded", (giveaway, member, reaction)
 
 });
 
-client.login(``)
+client.login(`Nzg2NTg1MTY0MDgzNzU3MTM2.X9IihQ.PnIIBtNxAVhNQ-ni5d4fW-ek7Dw`)
