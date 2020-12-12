@@ -96,10 +96,4 @@ client.giveawaysManager.on("giveawayReactionAdded", (giveaway, member, reaction)
         .setFooter(`Giveaway by ${reaction.message.author.tag}`)
         .setTimestamp()
       );
-      return;
-    }
-  }
-
-});
-
-client.login(`Nzg2NTg1MTY0MDgzNzU3MTM2.X9IihQ.PnIIBtNxAVhNQ-ni5d4fW-ek7Dw`)
+      
