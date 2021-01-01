@@ -29,7 +29,7 @@ fs.readdir('./Commands/', (error, f) => {
   }
 
   commands.forEach((f) => {
-    let Command = require(`./commands/${f}`);
+    let Command = require(`./Commands/${f}`);
     console.log(`${f} Command run!`);
     client.commands.set(Command.help.name, Command);
   });
